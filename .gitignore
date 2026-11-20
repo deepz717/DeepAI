@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments and package installs
+.venv/
+venv/
+env/
+node_modules/
+
+# Test and tool caches
+.pytest_cache/
+.pytest-tmp/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local runtime state, databases, logs, and transient output
+*.db
+*.db-shm
+*.db-wal
+*.log
+*.err
+*.blend1
+
+# User data and downloaded executables
+screenshots/
+uploads/
+chess_saves/
+*.exe

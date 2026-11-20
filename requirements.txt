@@ -1,0 +1,11 @@
+customtkinter>=5.2
+requests>=2.31
+psutil>=5.9
+SpeechRecognition>=3.10
+pyttsx3>=2.90
+PyAutoGUI>=0.9
+Pillow>=10
+pyperclip>=1.8
+comtypes>=1.4; sys_platform == "win32"
+beautifulsoup4>=4.12
+python-chess>=1.999
